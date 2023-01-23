@@ -32,7 +32,9 @@ app.use("/api/docs", swaggerUI.serve, swaggerUI.setup(swaggerJSDoc({
                 url: "http://localhost:3000"
             },
             {
-                url: "https://mean-app-jlbg.herokuapp.com/"
+                /*url: "https://mean-app-jlbg.herokuapp.com/"*/
+                url: "https://cheery-beijinho-5f36bb.netlify.app/"
+
             }
         ]
     },
